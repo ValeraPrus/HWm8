@@ -8,10 +8,6 @@ def get_birthdays_per_week(users):
     
     start_of_week = date.today()
     end_of_week = start_of_week + timedelta(days=6)
-    
-    start_month_day = (start_of_week.month, start_of_week.day)
-    end_month_day = (end_of_week.month, end_of_week.day)
-
 
     for i in users:
 
