@@ -36,3 +36,4 @@ if __name__ == "__main__":
     print(birth_dict)
     for day_name, names in birth_dict.items():
         print(f"{day_name}: {', '.join(names)}")
+    
